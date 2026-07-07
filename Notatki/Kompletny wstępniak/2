@@ -9,3 +9,9 @@ func nazwa():
 
 Funkcja która wywołuje kod co klatkę to:
 func _process(delta):
+
+Gdzie warto zaznaczyć (dosyc ważne), delta to czas między poprzednią klatką.
+A dlaczego to ważne? Ogólnie rzecz biorąc to co damy do _process będzie wywoływane co klatkę, więc jeżeli zrobimy na przykład poruszanie się w _process bez użycia delty, to w zależności ile masz fpsów tak szybciej będzie się
+poruszać.
+
+Z deltą będzie brało pod uwagę to jak długo zajmuje wczytanie nowej klatki użytkownikowi
