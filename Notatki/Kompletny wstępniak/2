@@ -23,5 +23,22 @@ Teraz if jest bardzo podobny do tego pythonowego
 		pass
 (pass == nic, bo w godocie nie może się nic nie znajdować w ifie, funkcji etc.)
 
-Teraz funckja, którą znalazłem
-range(x), zwraca [0,1,2....x-1]
+for robimy tak:
+
+for i in range(3):
+	pass
+
+range(x), zwraca nam [0,1,2....x-1]
+while to już nawet nie piszę (on jest praktycznie taki sam)
+
+jeżeli chodzi o arraye, to również jest bardzo prosto
+var x = ["coś","śoc","ośc"]
+możemy użyć x.append(), by dodać, bądź też x.pop_front(), by usunąć z przodu (adekwatnie x.pop_back)
+
+Słowniki/dictionaries
+
+var x = {
+	"klucz1": 1,
+	"klucz2": 5,
+	"klucz3": 4
+}
