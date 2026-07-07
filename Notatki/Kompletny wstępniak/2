@@ -42,3 +42,11 @@ var x = {
 	"klucz2": 5,
 	"klucz3": 4
 }
+gdzie kluczem nie musi być string, bo może być nawet Vector2 (vector dwu wymiarowy, x i y)
+odwołujemy się do tego co jest w środku przez x[nazwa_klucza] (jeżeli iterujemy przez słownik, to i będzie przyjmowało wartość klucza, tak jakby coś)
+
+I ostatnia ważna rzecz
+rzutowanie typów
+var x: int 
+var y: Vector2
+var z: String
