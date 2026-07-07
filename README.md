@@ -27,3 +27,6 @@ https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html#d
 Do każdego z nich postaram się dorobić własnoręczną notatkę, a pod koniec spróbować połączyć wszystko ze sobą w prostą gierkę 2d równiez oficjalnych docsów
 https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html#doc-your-first-2d-game
 
+Użycie AI nie jest tu jakieś duże, a to z powodu mojej chęci brania udział w konkursie na tworzenie gier odbywający się pod koniec miesiąca (nie wiedziałem jak, ani kiedy o tym wspomnieć)
+https://itch.io/jam/gmtk-jam-2026
+
