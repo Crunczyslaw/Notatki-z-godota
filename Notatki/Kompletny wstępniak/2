@@ -22,3 +22,6 @@ Teraz if jest bardzo podobny do tego pythonowego
   else:
 		pass
 (pass == nic, bo w godocie nie może się nic nie znajdować w ifie, funkcji etc.)
+
+Teraz funckja, którą znalazłem
+range(x), zwraca [0,1,2....x-1]
