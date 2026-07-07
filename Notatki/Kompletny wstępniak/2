@@ -15,3 +15,10 @@ A dlaczego to ważne? Ogólnie rzecz biorąc to co damy do _process będzie wywo
 poruszać.
 
 Z deltą będzie brało pod uwagę to jak długo zajmuje wczytanie nowej klatki użytkownikowi
+
+Teraz if jest bardzo podobny do tego pythonowego
+	if health != 80:
+	    pass
+  else:
+		pass
+(pass == nic, bo w godocie nie może się nic nie znajdować w ifie, funkcji etc.)
