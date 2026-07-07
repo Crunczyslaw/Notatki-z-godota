@@ -1,7 +1,20 @@
 # Notatki-z-godota
 
 Aktualny plan na zbliżające się dni
-Nauczyć się podstaw godota, przy pomocy tutoriala w oficjalnych docsach 
+Zapoznać się z godotem, przy pomocy oficjalnego wprowadzenia 
+https://docs.godotengine.org/en/stable/getting_started/introduction/index.html#toc-learn-introduction
+
+
+
+1. Introduction to Godot
+2. Learn to code with GDScript
+3. Overview of Godot's key concepts
+4. First look at Godot's interface
+5. Learning new features
+6. Godot's design philosophy
+
+Jak widać są to rzeczy strikte początkowe, więc nie powinno zająć mi to długo czasu.
+Po tym przejdę do faktycznych fundamentów godota zawartym w tym tutorialu
 https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html#doc-step-by-step
 
 1. Nodes and Scenes
