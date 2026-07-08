@@ -11,7 +11,7 @@ https://docs.godotengine.org/en/stable/getting_started/introduction/index.html#t
 3. Overview of Godot's key concepts ✅
 4. First look at Godot's interface ✅
 5. Learning new features ✅
-6. Godot's design philosophy
+6. Godot's design philosophy ✅
 
 Jak widać są to rzeczy strikte początkowe, więc nie powinno zająć mi to długo czasu.
 Po tym przejdę do faktycznych fundamentów godota zawartym w tym tutorialu
