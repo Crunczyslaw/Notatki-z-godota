@@ -1,0 +1,52 @@
+Zrobili własny interaktywny tutorial do ich języka i mimo to, że jest dla kompletnych początkujących, wydaje mi się, że to będzie dobry pomysł spróbować
+Ogólnie nadal robię, ale muszę w miejscach skipować, bo bywa że coś jest od zbyt proste
+
+Kilka ważnych rzeczy
+
+Funkcje difiniuje się:
+func nazwa():
+(tabulator)kod
+
+Funkcja która wywołuje kod co klatkę to:
+func _process(delta):
+
+Gdzie warto zaznaczyć (dosyc ważne), delta to czas między poprzednią klatką.
+A dlaczego to ważne? Ogólnie rzecz biorąc to co damy do _process będzie wywoływane co klatkę, więc jeżeli zrobimy na przykład poruszanie się w _process bez użycia delty, to w zależności ile masz fpsów tak szybciej będzie się
+poruszać.
+
+Z deltą będzie brało pod uwagę to jak długo zajmuje wczytanie nowej klatki użytkownikowi
+
+Teraz if jest bardzo podobny do tego pythonowego
+	if health != 80:
+	    pass
+  else:
+		pass
+(pass == nic, bo w godocie nie może się nic nie znajdować w ifie, funkcji etc.)
+
+for robimy tak:
+
+for i in range(3):
+	pass
+
+range(x), zwraca nam [0,1,2....x-1]
+while to już nawet nie piszę (on jest praktycznie taki sam)
+
+jeżeli chodzi o arraye, to również jest bardzo prosto
+var x = ["coś","śoc","ośc"]
+możemy użyć x.append(), by dodać, bądź też x.pop_front(), by usunąć z przodu (adekwatnie x.pop_back)
+
+Słowniki/dictionaries
+
+var x = {
+	"klucz1": 1,
+	"klucz2": 5,
+	"klucz3": 4
+}
+gdzie kluczem nie musi być string, bo może być nawet Vector2 (vector dwu wymiarowy, x i y)
+odwołujemy się do tego co jest w środku przez x[nazwa_klucza] (jeżeli iterujemy przez słownik, to i będzie przyjmowało wartość klucza, tak jakby coś)
+
+I ostatnia ważna rzecz
+rzutowanie typów
+var x: int 
+var y: Vector2
+var z: String
