@@ -1,0 +1,27 @@
+Godot jest przede wszystkim oparty na obiektach (o czym też już wspominałem)
+
+Robisz scenę z powiedzmy, że jakimś meblem.
+Może teraz dodawać ten mebel do innych scen przykładowo z mapą, a jeżeli zmienisz zdanie co do tego mebla możesz je zmienić w oryginalnej scenie, aby wszystkie inne jego instancje też się zmieniły.
+
+Tak samo z dziedziczeniem.
+
+Klasa wojownik dziedziczy z klasy postać.
+Jeżeli zmienimy jakoś klasę postać, klasa wojownik też dostanie te zmiany
+
+
+Poza obiektami godot zawiera dodatkowe edytory, aby wszystko było pod ręką podczas tworzenia gier.
+Niektóre z nich: 
+- edytor kodu
+- edytor animacji
+- edytor tile mapy (trochę taki grid)
+- edytor shaderów 
+- debugger
+- profiler 
+- hot-reload (aktualizowanie kodu podczas, gdy gra nadal jest włączona)
+
+Godot pozwala na używanie też innych języków poza GDscriptem (C,C++,C#, Rust), choć ten jest wyspecjalizowany dla gamedevów, między innymi przez wbudowane typy jak Vector2 lub Color.
+
+Godot sam z siebie jest open source i dużo opcji zostało dodanych przez community.
+
+I ostatnia rzecz (dosyć ciekawa).
+Sceny oraz twój kod, którego używasz do tworzenia gry może zostać bezpośrednio użyty aby modyfikować edytor.
