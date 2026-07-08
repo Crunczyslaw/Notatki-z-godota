@@ -31,3 +31,9 @@ To właśnie musiałem zrobić, aby zrobić tą fioletową kulkę
 
 Też taka rzecz nie związana ze scenami, ale nody symulujące fizykę mają zawsze skalę (1, 1).
 W przypadku fioletowej piłki musiałem zmienić zarówno wielkość jej obrazka na większą jak i jej pola kolizji
+
+Musiałem też trochę poszperać odnośnie tego czym jest viewport (dzięki claude).
+Ogólnie viewport, w skrócie to jest ekran/widok jakby z kamery w jakimś miejscu.
+
+Domyślny viewport to dosłownie to co widzisz na twoim ekranie.
+SubViewporty to jakby kamera ustawiona na jakieś inne miejsce
