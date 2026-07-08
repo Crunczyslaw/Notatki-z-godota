@@ -1,0 +1,12 @@
+Jak na razie nie zrobiłem nic przeważnie ciekawego, bo jest to label (tekst w hudzie) na pustym tle.
+
+Aczkolwiek jest kilka rzeczy, które chciałbym zapisać o nodach
+- każdy ma swoją nazwę
+- właściwości do edytowania
+- każdy z nich aktualizuję się co klatkę oddzielnie 
+- możesz dodawać do nich własne funkcje oraz właściwości (bodajże edytowalne w inspektorze po prawo)
+
+O scenie również
+- Każda scena musi zawierać chociaż jeden dowolny node (słowo klucz dowolny)
+- Są zapisywane jako oddzielny plik
+- Nie ma limitu ile instancji konkretnej sceny może istnieć (ma sens)
