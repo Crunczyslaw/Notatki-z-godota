@@ -1,0 +1,16 @@
+Nic czego bym już nie napisał się nie pojawiło, acz mogę napisać jeszcze o kilku zaletach używania Gdscripta w Godocie
+
+- prosty syntax (jak Python)
+- szybkie kompilowanie kodu
+- wbudowana integracja z edytorem (automatyczne wpisywanie potrzebnego kodu bazując na scenie, w której się znajduje skrypt)
+- automatyczne typy zmiennych (choć jak wiemy można rzutować)
+
+Używanie C# lub C++ jest równie dobre i nie powinno stanowić problemu.
+(choć eksportowanie projektów do html z C# nie jest możliwe w najnowszej wersji)
+
+
+Też taka ciekawostka, o której się dowiedziałem wczoraj.
+
+W starszych modelach Tesli wizualizacja auta na wyświetlaczu jest zrobiona przy pomocy Godota. (w ich własnej aplikacji również, ale nie brzmi to już tak cool)
+
+To wyłącznie w starszych modelach, ponieważ teraz jeżeli się nie mylę używają Unreal Engine 
