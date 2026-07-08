@@ -18,7 +18,7 @@ Po tym przejdę do faktycznych fundamentów godota zawartym w tym tutorialu
 https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html#doc-step-by-step
 
 1. Nodes and Scenes ✅
-2. Creating instances
+2. Creating instances ✅
 3. Scripting languages
 4. Creating your first script
 5. Listening to player input
