@@ -9,7 +9,7 @@ https://docs.godotengine.org/en/stable/getting_started/introduction/index.html#t
 1. Introduction to Godot ✅
 2. Learn to code with GDScript ✅
 3. Overview of Godot's key concepts ✅
-4. First look at Godot's interface
+4. First look at Godot's interface ✅
 5. Learning new features
 6. Godot's design philosophy
 
