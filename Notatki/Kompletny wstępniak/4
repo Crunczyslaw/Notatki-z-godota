@@ -1,0 +1,12 @@
+Jeżeli chodzi o interfejs, nie było za bardzo zaskoczeń.
+
+Najważniejszą rzeczą jest fakt, że można włączyć docsy bezpośrednio z programu pod F1
+
+Generalny opis co, gdzie jest:
+- centrum - wybór widoku (2d,3d, skrypt), wybór sceny oraz przybornik (poruszanie nodami, rotowanie etc.) 
+
+- lewy górny - drzewo nodów i
+
+- lewy dolny - eksplorer plików
+
+- prawy górny - opcje aktywacji gry oraz inspektor nodów (między innymi zmienianie ich właściwości)
