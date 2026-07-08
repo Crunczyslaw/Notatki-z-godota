@@ -1,3 +1,33 @@
 W końcu mamy coś ciekawego (nie po prostu napis).
 
 Już kilka razy było wspominane, że inne sceny można dawać do innych i jak się zaktualizuje oryginał to zmienia się reszta
+
+Udało mi się zrobić, przy pomocy tutoriala mały showcase scen.
+(patrz drugi plik w tym podpunkcie)
+
+Kilka słów:
+
+Tutorial z tymi piłkami przeczytałem tak w 5 minute, a bawiłem się tym projktem 2 godziny (sprawdzałem hehe)
+
+Był tutaj cały jeden skrypt i jest on poniżej:
+
+
+
+extends Node                                                    # trzeba wiedzieć z czego się dziedziczy co nie?
+
+@export var Ball: PackedScene                                   # odniesienie do sceny niebieskiej piłki z plików
+
+func _input(event):                                             # funkcja aktywująca kiedy jest jakikolwiek input
+	if event.is_action_pressed("click"):                          # wiadomo, sprawdza czy event był kliknięciem lewej myszki
+		var new_ball = Ball.instantiate()                           # instantiate() robi dosłownie kopie 
+		new_ball.position = get_viewport().get_mouse_position()     # bierze pozycje myszki względem pozycji na ekranie (nie pozycji growej)
+		add_child(new_ball)                                         # dodanie kopii piłki do rodzica tego skryptu (czyli głównego noda)
+
+
+
+Teraz aby dodać nową scenę do sceny (masło-maślane), a nie noda, trzeba kliknąć w przycisk z łańcuchami (obok guzika, który dodaje node)
+Domyślnie jak dodamy scenę możemy modyfikować wyłącznie główny node tej sceny, ale jak się przekonałem da się edytować kiedy kliknie prawym na główny node i przełączy wartość: "Edytowalne dzieci" (no kto by pomyślał)
+To właśnie musiałem zrobić, aby zrobić tą fioletową kulkę
+
+Też taka rzecz nie związana ze scenami, ale nody symulujące fizykę mają zawsze skalę (1, 1).
+W przypadku fioletowej piłki musiałem zmienić zarówno wielkość jej obrazka na większą jak i jej pola kolizji
