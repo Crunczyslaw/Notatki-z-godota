@@ -1,0 +1,32 @@
+Teraz nauczyliśmy się czegoś, więcej o inputach.
+
+Do obsługi inputów mamy kilka opcji:
+
+1) klasa Input:
+Możemy użyć jej w dowolnej funkcji, co sprawia że jest dosyć uniwersalna. Przykładowo możemy dać ją pod _process, aby sprawdzać co klatkę czy dany klawisz, mysz, joystick, guzik został wciśnięty (przyda się przy tworzeniu ruchu postaci)
+
+2) _input 
+Wywoływana kiedy zostanie wciśnięty jakiś klawisz. Słowo klucz wciśnięty, ponieważ bazowo nie sprawdza czy nadal jest trzymany.
+_input w nim powinny znajdować się akcje, które nie wymagają sprawdzania co klatkę (otwarcie jakiegoś ekwipunku, pauza gry, nawet skok postaci)
+
+
+3) _unhandled_input
+Wywołuje się jeżeli dany klawisz nie został obsłużony w _input (przyda się jeżeli chcemy dać graczu opcję ustawiania własnych klawiszy). Tak samo jak 
+_input nie sprawdza, czy guzik jest trzymany.
+
+Teraz dopieściliśmy skrypt z poprzedniego podpunktu dodając do niego obsługę inputów gracza.
+Poniżej znajduje się sama funkcja _process
+
+
+func _process(delta: float) -> void:
+	var rot_dir = 0									# zmienna dotycząca kierunku rotacji gracza
+	if Input.is_action_pressed("ui_left"):						# "ui_left" to lewy strzałka
+		rot_dir = -1								
+	if Input.is_action_pressed("ui_right"):						# analogicznie
+		rot_dir = 1
+	rotation += angular_speed * delta * rot_dir					# ponieważ domyślna wartość angular_speed jest dodatnia będzie się poruszać w prawo, gdyby była minusowa poruszała by się w lewo
+
+	if Input.is_action_pressed("ui_up"):						# nadal tak samo
+		position += Vector2.UP.rotated(rotation) * speed * delta
+
+
