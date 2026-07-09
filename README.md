@@ -20,8 +20,8 @@ https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html#d
 1. Nodes and Scenes ✅
 2. Creating instances ✅
 3. Scripting languages ✅
-4. Creating your first script
-5. Listening to player input
+4. Creating your first script ✅
+5. Listening to player input ✅
 6. Using signals
 
 Do każdego z nich postaram się dorobić własnoręczną notatkę, a pod koniec spróbować połączyć wszystko ze sobą w prostą gierkę 2d równiez oficjalnych docsów
