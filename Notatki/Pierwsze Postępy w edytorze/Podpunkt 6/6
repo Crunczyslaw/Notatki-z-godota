@@ -1,0 +1,33 @@
+W tym najnowszym projekcie dowiedziałem się praktycznie wszystkiego, czego bym potrzebował pod sygnały.
+
+Generalnie wszystko w nim jest zrobione pod sygnały, oprócz poruszania się, bo sygnały istnieją po tym, by łatwo komunikować się między nodami.
+
+Są dwa sposoby na łączenie sygnałów z nodami
+
+1) Łaczenie przez edytor 
+
+Wybierzmy przykładowo guzik powiększania postaci. Po prawo tam, gdzie mamy inspektor mamy również zakładkę z sygnałami. W niej mamy wszystkie sygnały guzika, większość z nich jest dziedziczona od klas pochodnych z których dziedziczy guzik.
+
+Nas interesuje pressed(). Po kliknięciu wybieramy, które nody będą przyjmowały ten sygnał oraz nazwę funkcji, która będzie wywoływana po jego otrzymaniu.
+I to tyle.
+
+Taka funkcja wygląda mniej więcej tak
+
+func _on_powieksz_pressed() -> void:
+	scale += Vector2(0.1,0.1)        # zwiększanie o 0.1 i 0.1
+	wiekszy.emit(scale)		 # o tym będzie później
+
+
+
+2) Łącznie przez kod
+
+get_node("ścieżka noda").nazwa_sygnału.connect(nazwa_funkcji_do_wywołania)
+
+Z czego warto zaznaczyć, że funkcja get_node przyjmuje również ścieżkę od rodzica skryptu.
+
+
+Teraz jeżeli chcemy zrobić własny sygnał, możemy go zrobić za pomocą:
+
+signal nazwa_sygnalu(argumenty)
+
+W taki sposób nasz nowo stworzony sygnał będzie gotowy do użytku, a co fajne będzie mógł zostać podłączony pierwszym sposobem (dosłownie pojawi się w tej liście rozwijanej sygnałów)
