@@ -1,0 +1,17 @@
+W porównaniu do tego co zrobiłem piłkach/kulkach tutaj było nic ciekawego.
+
+Tutaj też był tylko jeden skrypt
+
+
+extends Sprite2D						      # skrypt dziedziczy od klasy/noda Sprite2D
+
+var speed = 400   						      # 400 aby nadal rotował się szybko, po wymnożeniu z deltą
+var angular_speed = PI						      # PI nie jest wymagane, może to być dosłownie inna liczba
+
+
+func _process(delta: float) -> void:				      # dobrze już wiemy, że ta funkcja dzieje się co klatkę, a delta to czas pomiędzy ostatnią klatką
+	rotation += angular_speed * delta			      # rotujemy 
+	position += Vector2.DOWN.rotated(rotation) * speed * delta    # dodajemy do pozycji (0,1) oraz rotujemy nowo stworzony vector o aktualną rotację.
+
+
+Jedyną rzeczą, którą mogę dopowiedzieć to fakt, że każda funkcja wbudowana pod modyfikację zaczyna się podłogą (co łatwo idzie zauważyć)
