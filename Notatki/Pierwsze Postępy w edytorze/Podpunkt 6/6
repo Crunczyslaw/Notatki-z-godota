@@ -31,3 +31,4 @@ Teraz jeżeli chcemy zrobić własny sygnał, możemy go zrobić za pomocą:
 signal nazwa_sygnalu(argumenty)
 
 W taki sposób nasz nowo stworzony sygnał będzie gotowy do użytku, a co fajne będzie mógł zostać podłączony pierwszym sposobem (dosłownie pojawi się w tej liście rozwijanej sygnałów)
+Własnych syngałów użyłem aby aktualizować napis o zmianie wielkości, wywoływany przez gracza (choć jest to kontrintuicyjne, bo można zrobić to na tym samym sygnale co daje guzik)
