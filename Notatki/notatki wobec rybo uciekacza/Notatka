@@ -1,1 +1,22 @@
-fafafaa
+Owy projekt zajął dość dłużej niż bym chciał, choć może to być spowodowane moim gorszym samopoczuciem.
+
+Tak czy siak, większość zawartości pisałem samodzielnie, a zerkałem na na poradnik wtedy kiedy już nie wiedziałem co poszło nie tak, co można łatwo sprawdzić, przez po prostu porównanie dwóch kodów do siebie
+*jeden będzie o wiele mnie zoptymalizowany*
+
+Prawdopodobnie AI zrobiłoby to w mniej niż godzinę, ale pamiętajmy, że na GMTK użycie AI jest mocno ograniczone (jak nie w ogóle zakazane)
+
+Kodu jest o wiele za dużo, żeby go tutaj analizować, więc dam kilka ciekawszym rzeczy
+
+Można tworzyć własne atrybuty/właściwości do inspektora.
+Na samym dole jest guzik dodaj metadane i możesz wybrać jego nazwę oraz typ.
+Można go jak najbardziej odnosić się do niego w skryptach poprzez
+
+nasz_node.get_meta("nazwa właściwośći")
+nasz_node.set_meta("nazwa właściwośći", wartość)
+
+
+queue_free() - usunięcie rodzica w następnej klatce
+
+Centrum sceny znajduje się tam, gdzie jest położony główny node. Przez to trochę się wymęczyłem próbując ustalić ściany po rogach (cały czas było jakby przesunięte)
+
+- Jeżeli przypomnę sobie coś jeszcze to postaram się to tu napisać -
