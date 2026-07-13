@@ -1,1 +1,35 @@
-f
+Zanim przejdę do takiej śmietanki audio designu w grach, pierw chciałem zapoznać się z tym jak można dodać proste (jak na razie) dźwięki i muzykę w godocie
+
+Audio w godocie (i innych silnikach) jest oparte na busach (konkretniej magistralach). 
+Są to jakby takie rzeczki. Mniejsze rzeki wpływają do głównej rzeki.
+
+Rzeka główna, do niej wpływa rzeka muzyki, rzeka efektów dźwiękowych etc.
+
+Każda z nich może mieć inne właściwości jak głośność, czy też różne efekty. Warto zaznaczyć, że kiedy "wpływa" do innej rzeki to musi się liczyć z jej właściwościami.
+Przykładowo jeżeli głośność ogólna jest na 50%, a muzyka jest na 100%, to ostatecznie muzyka będzie o 50% cichsza.
+
+Muzyka w godocie jest włączana przez AudioStreamPlayer.
+W nim możemy ustawić między innymi:
+- ścieżke dźwięku 
+- głośność (db)
+- dystans (jeżeli jest to AudioStreamPlayer2D lub 3D)
+- czy muzyka gra
+- czy powinna automatycznie się włączać
+- magistralę
+
+Wiadomo
+
+Przez takiego AudioStreamPlayera bardzo prosto włączyć i wyłączyć audio.
+Jak? Po prostu start i stop.
+
+Łatwiej być nie mogło.
+
+Co jeżeli chcemy zmieniać magistralę? Wszystkie magistralę znajdują się w AudioServer.
+Przez niego możemy wyszukać id magistralę miejąc jej nazwę(get_bus_index("nazwa")) i korzystając z innych metod AudioServera jak
+- set_bus_volume_db
+- set_bus_mute
+- add_bus_effect
+
+Zmieniać różne rzeczy
+
+Jak na razie preaty easy
