@@ -1,0 +1,11 @@
+Kilka rzeczy odnośnie projektu z audio.
+
+- audio gry w przeglądarce lubi się psuć, a to przez to że domyślnie jest ustawiany inny odbiór dźwięków przystosowany do krótszych form (Sample), a ponieważ w projektcie była już muzyka to się psuła.
+Naprawiło ustawienie na Stream
+
+- Area2D jest od poprostu pod sprawdzanie czy inny objekt jest w nim.
+
+- Nody stanowią dobre foldery (gdyby tylko się dało selektować wszystkie dzieci przez jedno kliknięcie, nie w eksplorerze)
+
+- Jestem pod wrażeniem jak modularny jest ten system z uchem, zamieniasz nazwy "gramophone" i player na jakieś basic nazwy i praktycznie dowolny obiekt może zostać wygłuszany.
+Preaty cool
